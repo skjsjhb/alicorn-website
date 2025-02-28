@@ -6,7 +6,8 @@ export const fontSans = FontSans({
 });
 
 export const fontSansSC = Noto_Sans_SC({
-    variable: "--font-sans-sc"
+    variable: "--font-sans-sc",
+    preload: false
 });
 
 export const fontMono = FontMono({
